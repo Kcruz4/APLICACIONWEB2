@@ -15,5 +15,3 @@ pandas
 
  streamlit==1.7.0 
 
-# Comando para ejecutar tu aplicación Streamlit
-CMD ["streamlit", "run", "app.py"]
