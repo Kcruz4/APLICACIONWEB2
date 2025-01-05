@@ -15,18 +15,5 @@ pandas
 
  streamlit==1.7.0 
 
-# Instalar dependencias del sistema necesarias
-RUN apt-get update && apt-get install -y python3-venv
-
-# Configuración de directorio de trabajo
-WORKDIR /app
-
-# Copiar tu código fuente y el archivo requirements.txt
-COPY . /app
-
-# Instalar dependencias de Python
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
-
 # Comando para ejecutar tu aplicación Streamlit
 CMD ["streamlit", "run", "app.py"]
