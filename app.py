@@ -32,8 +32,6 @@ if scatter_button:  # Al hacer clic en el botón
     st.plotly_chart(fig, use_container_width=True)
 
 
-    import streamlit as st
-
 # crear una casilla de verificación
 build_histogram = st.checkbox('Construir un histograma')
 
