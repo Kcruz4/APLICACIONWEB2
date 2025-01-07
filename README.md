@@ -44,7 +44,7 @@ Inicia la aplicación con:
 
 streamlit run app.py
 
-Abre la URL generada en tu navegador ( http://localhost:8501).
+Abre la URL generada en tu navegador (https://aplicacionweb2.onrender.com)
 
 Dataset
 
